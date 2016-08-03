@@ -1,32 +1,24 @@
-# Houses of Westeros
+# README
 
-When you play the Game of Rails, you win or you die.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-You'll be making a Ruby on Rails app connecting Game of Thrones characters to their respective houses. Implement full CRUD functionality on the models.
+Things you may want to cover:
 
-We will start off with two models: `Houses` and `Characters`.
+* Ruby version
 
-## Models + Migrations
+* System dependencies
 
-- Create ERD for Houses and Characters
-- Create models and migrations for Houses and Characters
-- Create seed data for Houses and Characters
+* Configuration
 
-## Views + Controllers
+* Database creation
 
-- Add views and controllers.
+* Database initialization
 
-## Helpers
+* How to run the test suite
 
-- Use links, forms, etc. to helpers.
+* Services (job queues, cache servers, search engines, etc.)
 
-## User Notifications
+* Deployment instructions
 
-- Implement validations, error-handling and flash.
-
-
-## Bonus
-
-- Implement nested routes
-- Add a third model for quotes associated with a character.
-- Try out many-to-many relationships with tags to label characters. A character can have many tags and a tag can be associated with many characters. One way to tag characters can be based on personality traits. 
+* ...

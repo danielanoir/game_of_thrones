@@ -1,0 +1,7 @@
+<h1>Editing Characters</h1>
+
+<%= form_for :character, url: character_path(@character), method: :patch do |f| %>
+<% end %>
+
+<%= render 'form' %>
+<%= link_to 'Back', characters_path %>

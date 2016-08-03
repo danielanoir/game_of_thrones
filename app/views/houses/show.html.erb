@@ -1,0 +1,30 @@
+<h2>House Information</h2>
+<p>
+  <strong>House Name:</strong>
+  <%= @house.house_name %>
+</p>
+
+<p>
+  <strong>Map:</strong>
+  <%= @house.map %>
+</p>
+
+<h3>Characters in House</h3>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th colspan="1"></th>
+  </tr>
+
+<% @house.characters.each do |character| %>
+<tr>
+  <td><%= character.name %></td>
+</tr>
+<% end %>
+</table>
+
+<br><br>
+
+<%= link_to 'Back', houses_path %> |
+<%= link_to 'Edit', edit_house_path(@house) %>

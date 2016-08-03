@@ -1,0 +1,55 @@
+body {
+  background-color: #97C7AF;
+  margin-top: 50px;
+}
+
+div.content {
+  background-color: orange;
+  padding: 10px 30px 50px 30px;
+  border: solid 5px #575555;
+  width: 600px;
+  margin: auto;
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  font-family: 'Lobster Two', cursive;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+a:link {
+  color: black;
+  font-family: 'Lobster Two', cursive;
+  text-decoration: none;
+  padding:20px;
+}
+
+a:visited {
+  color:  #CC361F;
+}
+
+a:hover {
+  color:#AD2F6E;
+}
+
+a:active {
+  color: orange;
+}
+
+h1 {
+  font-size: 60px;
+  padding: 0px;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}

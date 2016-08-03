@@ -1,0 +1,18 @@
+<h2>Character Information</h2>
+<p>
+  <strong>Name:</strong>
+  <%= @character.name %>
+</p>
+
+<p>
+  <strong>Photo:</strong><br>
+  <img src= "<%= @character.photo_url %>" width="150"></img>
+</p>
+
+<h3>Where They At</h3>
+<p>House <%= @character.house.house_name %> </p>
+
+<br><br>
+
+<%= link_to 'Back', characters_path %> |
+<%= link_to 'Edit', edit_character_path(@character) %>

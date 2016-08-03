@@ -1,0 +1,22 @@
+<h1><%= link_to 'Houses', houses_path %> |
+  <%= link_to 'Characters', characters_path %></h1>
+<h3><%= link_to 'Create New Character', new_character_path %></h3>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Photo</th>
+  </tr>
+
+  <% @characters.each do |character| %>
+  <tr>
+    <td><img src= "<%= character.photo_url %>" width="150"></img></td>
+    <td><%= character.name %></td>
+    <td><%= link_to 'Show', character_path(character) %></td>
+    <td><%= link_to 'Edit', edit_character_path(character) %></td>
+    <td><%= link_to 'Destroy', character_path(character),
+            method: :delete,
+            data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
